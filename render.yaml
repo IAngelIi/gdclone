@@ -1,7 +1,8 @@
 services:
   - type: web
-    name: my-rust-app
+    name: my-rust-service
     env: rust
+    plan: free
     buildCommand: "cargo build --release"
-    startCommand: "./target/release/your_binary"
+    startCommand: "./target/release/my_rust_binary"
     rootDir: .
