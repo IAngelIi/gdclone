@@ -1,8 +1,7 @@
 services:
   - type: web
-    name: my-rust-service
+    name: gdclone
     env: rust
-    plan: free
-    buildCommand: "cargo build --release"
-    startCommand: "./target/release/my_rust_binary"
     rootDir: .
+    buildCommand: "cargo build --release"
+    startCommand: "./target/release/gdclone"
