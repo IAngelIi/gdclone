@@ -3,7 +3,7 @@
     <assemblyIdentity
         version="0.1.0.0"
         processorArchitecture="*"
-        name="Opstic.GDClone"
+        name="shadownix GdClone"
         type="win32"
     />
     <description>An attempt at an alternative Geometry Dash client built using Bevy</description>
