@@ -1,7 +1,7 @@
 services:
   - type: web
-    name: gdclone
+    name: shadownixgd
     env: rust
     rootDir: .
     buildCommand: "cargo build --release"
-    startCommand: "./target/release/gdclone"
+    startCommand: "./target/release/shadownixgd"
